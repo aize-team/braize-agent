@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.aize/braize",
+  "title": "Braize | Agent unlimited memory",
+  "description": "Permission-aware, always-fresh company knowledge for agents: cited passages and freshness.",
+  "version": "0.1.0",
+  "websiteUrl": "https://br.aize.dev",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aize.dev/mcp",
+      "variables": {
+        "workspace_id": {
+          "description": "Your Braize workspace id (dashboard: Channels > MCP).",
+          "isRequired": true
+        }
+      }
+    }
+  ]
+}

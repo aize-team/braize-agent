@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "braize": {
+      "type": "http",
+      "url": "https://mcp.aize.dev/mcp",
+      "oauth": { "clientId": "braize-mcp-cli" }
+    }
+  }
+}

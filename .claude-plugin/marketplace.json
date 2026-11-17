@@ -1,0 +1,15 @@
+{
+  "name": "braize",
+  "owner": { "name": "Aize", "url": "https://br.aize.dev" },
+  "metadata": {
+    "description": "Braize | Agent unlimited memory: permission-aware, always-fresh company knowledge for AI agents."
+  },
+  "plugins": [
+    {
+      "name": "braize",
+      "source": "./plugins/braize",
+      "description": "Search and cite your synced company knowledge, check freshness, and keep agent memory through Braize.",
+      "category": "productivity"
+    }
+  ]
+}

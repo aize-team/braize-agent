@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "braize": {
+      "url": "https://mcp.aize.dev/mcp",
+      "auth": { "CLIENT_ID": "braize-mcp-cli", "scopes": ["mcp:read"] }
+    }
+  }
+}

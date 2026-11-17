@@ -1,0 +1,21 @@
+{
+  "name": "braize",
+  "displayName": "Braize | Agent unlimited memory",
+  "version": "0.1.0",
+  "description": "Permission-aware, always-fresh company knowledge for AI agents: cited passages over MCP, freshness checks, a cited-answer REST fallback and agent memory.",
+  "author": { "name": "Aize", "url": "https://br.aize.dev" },
+  "homepage": "https://br.aize.dev/docs/mcp-setup",
+  "documentationUrl": "https://br.aize.dev/docs/mcp-setup",
+  "supportUrl": "https://br.aize.dev/contact",
+  "privacyPolicyUrl": "https://br.aize.dev/privacy",
+  "termsOfServiceUrl": "https://br.aize.dev/terms",
+  "keywords": ["memory", "knowledge-base", "rag", "mcp", "retrieval", "citations"],
+  "userConfig": {
+    "workspace_id": {
+      "type": "string",
+      "title": "Braize workspace id",
+      "description": "Your workspace id from the Braize dashboard (Channels > MCP). The MCP URL is https://mcp.aize.dev/<workspace_id>.",
+      "required": true
+    }
+  }
+}

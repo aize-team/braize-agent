@@ -1,0 +1,3 @@
+# ~/.codex/config.toml — then run `codex mcp login braize` to sign in (OAuth, browser).
+[mcp_servers.braize]
+url = "https://mcp.aize.dev/mcp"

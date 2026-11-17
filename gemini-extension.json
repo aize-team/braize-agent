@@ -1,0 +1,19 @@
+{
+  "name": "braize",
+  "version": "0.1.0",
+  "description": "Braize | Agent unlimited memory: permission-aware, always-fresh company knowledge with cited passages.",
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "Braize workspace id",
+      "description": "Your workspace id from the Braize dashboard (Channels > MCP).",
+      "envVar": "BRAIZE_WORKSPACE_ID"
+    }
+  ],
+  "mcpServers": {
+    "braize": {
+      "httpUrl": "https://mcp.aize.dev/${BRAIZE_WORKSPACE_ID}",
+      "oauth": { "enabled": true, "clientId": "braize-mcp-cli", "scopes": ["mcp:read"] }
+    }
+  }
+}
